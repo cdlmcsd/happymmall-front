@@ -14,3 +14,11 @@ npm install --registry=https://registry.npm.taobao.org webpack-dev-server --save
 npm install --registry=https://registry.npm.taobao.org  css-loader@0.28.1 style-loader@0.7.0 --save-dev
 
 webpack-dev-server --inline --port 8088
+
+git push
+
+git merge origin master
+
+git tag tag-dev-initial
+
+git push origin tag-dev-initial
