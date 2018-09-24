@@ -1,8 +1,12 @@
 /*
-* @Author: Administrator
-* @Date:   2018-09-23 16:02:50
-* @Last Modified by:   Administrator
-* @Last Modified time: 2018-09-23 16:02:50
+* @Author: cdl
+* @Date:   2018-09-23 16:04:36
+* @Last Modified by:   cdl
+* @Last Modified time: 2018-09-24 17:44:43
 */
 
-console.log('i am global');
+'use strict';
+
+require('./layout.css');
+
+require('node_modules/font-awesome/css/font-awesome.min.css');

@@ -1,0 +1,18 @@
+/*
+* @Author: cdl
+* @Date:   2018-09-24 18:13:08
+* @Last Modified by:   cdl
+* @Last Modified time: 2018-09-24 18:24:16
+*/
+
+.nav-simple {
+	height: 60px;
+	line-height: 60px;
+	border-bottom: 1px solid #ddd;
+	background: #fff;
+}
+.nav-simple .logo {
+	font-size: 26px;
+	font-weight: bold;
+	color: #c60023;
+}
