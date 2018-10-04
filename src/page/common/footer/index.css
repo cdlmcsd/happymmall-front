@@ -1,0 +1,22 @@
+/*
+* @Author: cdl
+* @Date:   2018-10-02 22:15:07
+* @Last Modified by:   cdl
+* @Last Modified time: 2018-10-02 22:38:45
+*/
+.footer {
+	padding-bottom: 10px;
+}
+.footer .links {
+	text-align: center;
+	color: #666;
+	line-height: 30px;
+}
+.footer .links .link {
+	padding: 0 10px;
+}
+.footer .copyright {
+	text-align: center;
+	color: #666;
+	line-height: 30px;
+}

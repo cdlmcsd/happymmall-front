@@ -1,12 +1,16 @@
 <html>
 	<head>
 		<%= require('html-loader!./layout/head-common.html') %>
-		<title>happymmall电商平台</title>
+		<title><%=  htmlWebpackPlugin.options.title %> - happymmall电商平台</title>
 	</head>
 	<body>
 		<%= require('html-loader!./layout/nav.html') %>
-		<div>
-			<i class="fa fa-user"></i>
+		<%= require('html-loader!./layout/header.html') %>
+		<div class="page-wrap w">
+			<%= require('html-loader!./layout/nav-side.html') %>
+			<div class="content with-nav">
+				test
+			</div>
 		</div>
 	<%= require('html-loader!./layout/footer.html') %>
 	</body>

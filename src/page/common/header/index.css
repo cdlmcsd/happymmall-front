@@ -1,0 +1,33 @@
+/*
+* @Author: cdl
+* @Date:   2018-10-03 10:20:35
+* @Last Modified by:   cdl
+* @Last Modified time: 2018-10-03 11:40:43
+*/
+
+/*通用页面头部*/
+.header .logo {
+	position: absolute;
+	display: block;
+	left: 50px;
+	top: 34px;
+	font-size: 36px;
+	color: #c60023;
+	font-weight: bold;
+}
+.header .search-con {
+	padding: 40px 0 30px 250px;
+}
+.header .search-con .search-input {
+	width: 550px;
+	height: 40px;
+	line-height: 40px;
+	padding-left: 10px;
+	font-size: 15px;
+	border: 2px solid #c60023;
+	outline: none;
+}
+.header .search-con .search-btn {
+	position: absolute;
+	width: 80px;
+}

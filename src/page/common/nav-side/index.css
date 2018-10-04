@@ -1,0 +1,27 @@
+/*
+* @Author: cdl
+* @Date:   2018-10-03 20:34:28
+* @Last Modified by:   cdl
+* @Last Modified time: 2018-10-03 21:52:23
+*/
+/*导航菜单*/
+.nav-side {
+	float: left;
+	width: 130px;
+	min-height: 100px;
+} 
+.nav-side .nav-item {
+	line-height: 25px;
+	font-size: 13px;
+}
+.nav-side .nav-item .link {
+	color: #888;
+}
+.nav-side .nav-item.active .link {
+	color: #c60023;
+}
+/*中间内容区*/
+.content.with-nav {
+	float: left;
+	width: 950px;
+}
