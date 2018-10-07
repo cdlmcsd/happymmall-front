@@ -2,7 +2,7 @@
 * @Author: cdl
 * @Date:   2018-09-24 07:51:37
 * @Last Modified by:   cdl
-* @Last Modified time: 2018-09-24 14:29:22
+* @Last Modified time: 2018-10-04 09:36:13
 */
 
 'use strict';
@@ -81,7 +81,7 @@ var _mm = {
 	},
 	//统一登陆处理
 	doLogin : function(){
-		window.location.href = './login.html?redirect=' + encodeURIComponent(window.location.href);
+		window.location.href = './user-login.html?redirect=' + encodeURIComponent(window.location.href);
 	},
 	//统一跳转
 	goHome : function(){

@@ -2,7 +2,7 @@
 * @Author: cdl
 * @Date:   2018-10-03 10:20:35
 * @Last Modified by:   cdl
-* @Last Modified time: 2018-10-03 11:40:43
+* @Last Modified time: 2018-10-07 21:16:15
 */
 
 /*通用页面头部*/
@@ -30,4 +30,14 @@
 .header .search-con .search-btn {
 	position: absolute;
 	width: 80px;
+}
+/*面包屑导航*/
+.crumb{
+    margin-bottom: 15px;
+    height: 50px;
+    line-height: 50px;
+    background: #eee;
+    color: #888;
+    font-size: 14px;
+    border-top: 2px solid #c60023;
 }

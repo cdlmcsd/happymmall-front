@@ -2,7 +2,7 @@
 * @Author: cdl
 * @Date:   2018-09-24 16:16:14
 * @Last Modified by:   cdl
-* @Last Modified time: 2018-09-24 18:25:52
+* @Last Modified time: 2018-10-07 21:10:08
 */
 /*css reset*/
 * {
@@ -39,6 +39,25 @@ input[type='checkbox'] {
 }
 
 /*全局通用样式*/
+
+/*panel样式*/
+.panel {
+	padding: 10px;
+	margin-bottom: 10px;
+	background: #fff;
+}
+.panel .panel-title {
+	padding: 10px;
+	font-size: 14px;
+	color: #666;
+	font-weight: bold;
+	border-bottom: 1px solid #eee;
+}
+.panel .panel-body {
+	padding: 10px;
+	overflow: hidden;
+}
+
 /*隐藏类*/
 .hide {
 	display: none;
