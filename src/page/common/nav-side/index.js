@@ -2,7 +2,7 @@
 * @Author: cdl
 * @Date:   2018-10-03 20:31:37
 * @Last Modified by:   cdl
-* @Last Modified time: 2018-10-03 21:53:39
+* @Last Modified time: 2018-10-13 21:27:47
 */
 
 'use strict';
@@ -17,7 +17,7 @@ var navSide = {
 		name: '',
 		navList: [
 			{name: 'user-center', desc: '个人中心', 	href: './user-center.html'},
-			{name: 'pass-update', desc: '修改密码', 	href: './pass-update.html'},
+			{name: 'user-pass-update', desc: '修改密码', 	href: './user-pass-update.html'},
 			{name: 'order-list', desc: '我的订单', 	href: './order-list.html'},
 			{name: 'about', desc: '关于MMALL', 	href: './about.html'}
 		]

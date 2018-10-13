@@ -2,7 +2,7 @@
 * @Author: cdl
 * @Date:   2018-09-22 22:07:40
 * @Last Modified by:   cdl
-* @Last Modified time: 2018-10-07 20:54:37
+* @Last Modified time: 2018-10-13 21:37:49
 */
 var webpack = require('webpack');
 var ExtractTextPlugin = require('extract-text-webpack-plugin');
@@ -16,7 +16,7 @@ console.log(WEBPACK_ENV);
 var getHtmlConfig = function(name,title) {
     return  {
                 template:   './src/view/' + name + '.html',
-                filename:   'view/' + name + '.html',
+                filename:   name + '.html',
                 title:      title, 
                 inject:     true, 
                 hash:       true, 
@@ -33,6 +33,7 @@ var config = {
         'user-pass-reset' :     ['./src/page/user-pass-reset/index.js'],
         'user-center' :         ['./src/page/user-center/index.js'],
         'user-center-update' :  ['./src/page/user-center-update/index.js'],
+        'user-pass-update' :    ['./src/page/user-pass-update/index.js'],
         'result' :             ['./src/page/result/index.js'],
 	},
 	output: {
@@ -76,6 +77,7 @@ var config = {
         new HtmlWebpackPlugin(getHtmlConfig('user-pass-reset' ,'找回密码')),
         new HtmlWebpackPlugin(getHtmlConfig('user-center' ,'个人中心')),
         new HtmlWebpackPlugin(getHtmlConfig('user-center-update' ,'个人信息修改')),
+        new HtmlWebpackPlugin(getHtmlConfig('user-pass-update' ,'修改密码')),
         new HtmlWebpackPlugin(getHtmlConfig('result', '操作结果')),
     ],
     devServer: {

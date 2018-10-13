@@ -2,7 +2,7 @@
 * @Author: cdl
 * @Date:   2018-09-24 07:51:37
 * @Last Modified by:   cdl
-* @Last Modified time: 2018-10-04 09:36:13
+* @Last Modified time: 2018-10-13 22:07:50
 */
 
 'use strict';
@@ -57,11 +57,11 @@ var _mm = {
 	},
 	//成功提示
 	successTip : function(msg) {
-		alert(msg + '操作成功!');
+		alert(msg + ',  操作成功!');
 	},
 	//错误提示
 	errorTip : function(msg) {
-		alert(msg + '哪里不对了`');
+		alert(msg + ',  哪里不对了`');
 	},
 	//字体段的验证,支持非空,手机号,邮箱的判断
 	validate : function(value, type) {

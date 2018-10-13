@@ -2,7 +2,7 @@
 * @Author: cdl
 * @Date:   2018-10-05 21:43:45
 * @Last Modified by:   cdl
-* @Last Modified time: 2018-10-07 22:27:47
+* @Last Modified time: 2018-10-13 22:09:17
 */
 
 'use strict';
@@ -82,6 +82,15 @@ var _user = {
     	_mm.request({
             url     : _mm.getServerUrl('/user/forget_reset_password.do'),
             data 	: userInfo,
+            method  : 'POST',
+            success : resolve,
+            error   : reject
+        });
+    },
+    password_update: function(userInfo, resolve, reject) {
+        _mm.request({
+            url     : _mm.getServerUrl('/user/reset_password.do'),
+            data    : userInfo,
             method  : 'POST',
             success : resolve,
             error   : reject
