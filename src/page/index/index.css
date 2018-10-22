@@ -2,11 +2,80 @@
 * @Author: Administrator
 * @Date:   2018-09-23 16:12:38
 * @Last Modified by:   cdl
-* @Last Modified time: 2018-09-23 22:03:20
+* @Last Modified time: 2018-10-22 23:04:59
 */
-body{
-	/*background: url('../../image/11.jpg');*/
-	background: #ccc;
-	color: red;
+
+.keywords-list {
+	float: left;
+	height: 350px;
+	width: 240px;
+	padding: 10px 0;
+	margin-right: 10px;
+	background: #666;
+	color: #fff;
+}
+.keywords-item {
+	padding-left: 10px;
+	height: 35px;
+	line-height: 35px;
+	font-size: 14px;
+}
+.keywords-item .link {
+	margin-right: 6px;
+	color: #fff;
+}
+.keywords-item:hover {
+	background: #999;
+}
+.keywords-item .link:hover {
+	color: #c60023;
+}
+
+.banner-con {
+	width: 830px;
+	background: #eee;
+	float: left;
+	height: 370px;
+}
+.banner-con .loading {
+	margin-top: 150px;
+}
+
+
+
+.floor-wrap .floor-title {
+	height: 50px;
+	line-height: 50px;
+	color: #d58717;
+	font-weight: normal;
 	font-size: 20px;
+	border-bottom: 1px solid #d58717;
+}
+.floor-wrap .floor-list {
+	margin-right: -20px;
+	overflow: hidden;
+}
+.floor-wrap .floor-item {
+	position: relative;
+	width: 200px;
+	height: 220px;
+	margin: 15px 20px 15px 0;
+	float: left;
+	cursor: pointer;
+	background: #fff;
+}
+.floor-item .floor-text {
+	position: absolute;
+	top: 12px;
+	left: 20px;
+	font-size: 16px;
+	color: #555;
+}
+.floor-item .floor-img {
+	position: absolute;
+	right: 15px;
+	bottom: 10px;
+	width: 80%;
+	height: 75%;
+	border: none;
 }

@@ -2,8 +2,9 @@
 * @Author: cdl
 * @Date:   2018-09-22 22:07:40
 * @Last Modified by:   cdl
-* @Last Modified time: 2018-10-13 21:37:49
+* @Last Modified time: 2018-10-22 23:16:07
 */
+var path = require('path');
 var webpack = require('webpack');
 var ExtractTextPlugin = require('extract-text-webpack-plugin');
 var HtmlWebpackPlugin = require('html-webpack-plugin')
@@ -16,7 +17,7 @@ console.log(WEBPACK_ENV);
 var getHtmlConfig = function(name,title) {
     return  {
                 template:   './src/view/' + name + '.html',
-                filename:   name + '.html',
+                filename:   '/view/' + name + '.html',
                 title:      title, 
                 inject:     true, 
                 hash:       true, 
@@ -37,8 +38,8 @@ var config = {
         'result' :             ['./src/page/result/index.js'],
 	},
 	output: {
-		path: './dist',
-        publicPath: '/dist',
+		path: path.join(__dirname , '/dist'),
+        publicPath: '/dist/view/',
 		filename: 'js/[name].js'
 	},
 	externals: {
