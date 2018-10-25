@@ -1,8 +1,8 @@
 /*
 * @Author: cdl
 * @Date:   2018-09-24 07:51:37
-* @Last Modified by:   cdl
-* @Last Modified time: 2018-10-22 23:15:09
+* @Last Modified by:   Administrator
+* @Last Modified time: 2018-10-25 10:34:32
 */
 
 'use strict';
@@ -10,7 +10,7 @@ var conf = {
 	serverHost : 		''
 };
 
-var hogan = require('hogan');
+var hogan = require('hogan.js');
 
 var _mm = {
 	request : function(param) {
