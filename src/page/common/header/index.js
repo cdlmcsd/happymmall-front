@@ -1,8 +1,8 @@
 /*
 * @Author: cdl
 * @Date:   2018-10-03 10:20:16
-* @Last Modified by:   cdl
-* @Last Modified time: 2018-10-03 11:39:01
+* @Last Modified by:   Administrator
+* @Last Modified time: 2018-10-25 11:25:48
 */
 
 'use strict';
@@ -12,6 +12,7 @@ var _mm = require('util/mm.js');
 //通用页面头部
 var header = {
 	init: function() {
+		this.onload();
 		this.bindEvent();
 	},
 	onload: function() {
