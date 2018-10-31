@@ -1,8 +1,8 @@
 /*
 * @Author: Administrator
 * @Date:   2018-10-25 11:03:40
-* @Last Modified by:   Administrator
-* @Last Modified time: 2018-10-25 15:50:38
+* @Last Modified by:   cdl
+* @Last Modified time: 2018-10-29 23:08:33
 */
 
 .sort-con {
@@ -77,4 +77,14 @@
 	margin-bottom: 10px;
 	color: #666;
 	font-size: 12px;
+}
+/*错误信息*/
+.err-tip {
+	height: 60px;
+	line-height: 60px;
+	color: #f60;
+	font-size: 16px;
+	font-weight: bold;
+	text-align: center;
+	background: #eee;
 }
