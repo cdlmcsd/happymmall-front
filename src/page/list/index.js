@@ -1,8 +1,8 @@
 /*
 * @Author: Administrator
 * @Date:   2018-10-25 11:03:28
-* @Last Modified by:   cdl
-* @Last Modified time: 2018-10-28 09:34:30
+* @Last Modified by:   Administrator
+* @Last Modified time: 2019-02-25 14:40:06
 */
 
 'use strict';
@@ -23,7 +23,7 @@ var page = {
 			categoryId 	: _mm.getUrlParam('categoryId') || '',
 			orderBy		: _mm.getUrlParam('orderBy')	|| '',
 			pageNum		: _mm.getUrlParam('pageNum')	|| 1,
-			pageSize	: _mm.getUrlParam('pageSize')	|| 20
+			pageSize	: _mm.getUrlParam('pageSize')	|| 10
 		}
 	},
 	init: 			function() {

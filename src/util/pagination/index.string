@@ -10,7 +10,7 @@
 		{{^active}}
 			<span class="pg-item" data-value="{{value}}">{{name}}</span>
 		{{/active}}
-	{{^disabled}}
+	{{/disabled}}
 	{{/pageArray}}
 	<span class="pg-total">{{pageNum}} / {{pages}}</span>
 </div>

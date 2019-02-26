@@ -2,7 +2,7 @@
 * @Author: Administrator
 * @Date:   2018-11-01 14:10:24
 * @Last Modified by:   Administrator
-* @Last Modified time: 2018-11-13 13:12:16
+* @Last Modified time: 2019-02-14 13:50:57
 */
 
 'use strict';
@@ -135,7 +135,7 @@ var page = {
 		// 提交购物车
 		$(document).on('click', '.btn-submit', function() {
 			if(_this.data.cartInfo && _this.data.cartInfo.cartTotalPrice > 0) {
-				window.location.href = './confirm.html';
+				window.location.href = './order-confirm.html';
 			}else{
 				_mm.errorTip('请选择商品后再提交');
 			}
